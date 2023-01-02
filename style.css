@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;900&family=Raleway:wght@200&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    background-image: url(https://wallpapercave.com/wp/wp3597486.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 1px solid rgb(50, 51, 51);
+}
+.nav-bar-left{
+    color: white;
+    font-size: 25px;
+}
+.nav-bar-contant{
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12%;
+}
+.contain-1{
+    color: white;
+    font-size: 15px;
+}
+.contain-2{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 70px;
+    padding: 0 0 60px 0;
+}
+.contain-3{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 70px;
+    border-bottom: 3px solid lightseagreen;
+    padding-bottom: 20px;
+}
+.contain-4{
+    color: white;
+    font-size: 20px;   
+}
+.contain-5{
+    background-color: lightseagreen;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+}
+.contain-6{
+    color: white;
+    font-size: 20px; 
+    padding-bottom: 40px;
+}
